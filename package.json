@@ -7,8 +7,9 @@
     "start": "node main.js"
   },
   "dependencies": {
-    "apify": "^2.3.2",
-    "cheerio": "^1.0.0-rc.12",
-    "youtube-transcript": "^1.1.2"
+  "apify": "^2.3.2",
+  "cheerio": "^1.0.0-rc.12",
+  "youtube-transcript": "^1.1.2",
+  "node-fetch": "^2.6.7"
   }
 }
