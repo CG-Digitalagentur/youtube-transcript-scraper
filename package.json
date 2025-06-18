@@ -1,13 +1,14 @@
 {
-  "name": "youtube-transcript-actor",
+  "name": "youtube-transcript-scraper",
   "version": "1.0.0",
-  "description": "Actor zum Extrahieren von YouTube-Transkripten",
+  "description": "Scrapes YouTube video transcripts (captions)",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js"
   },
   "dependencies": {
-    "apify": "^2.3.2",
-    "playwright": "^1.44.0"
+    "apify": "^3.0.0",
+    "youtube-transcript": "^1.2.3"
   }
 }
