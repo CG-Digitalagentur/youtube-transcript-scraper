@@ -1,8 +1,6 @@
 import { Actor } from 'apify';
-import pkg from 'youtube-transcript';
+import getTranscript from 'youtube-transcript';
 import { gotScraping } from 'got-scraping';
-
-const { getTranscript } = pkg;
 
 await Actor.init();
 
