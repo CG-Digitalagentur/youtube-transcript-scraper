@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "apify": "^3.0.0",
+    "got-scraping": "^8.3.0",
     "youtube-transcript": "^1.2.3"
   }
 }
