@@ -1,0 +1,15 @@
+{
+  "title": "YouTube Transcript Actor",
+  "description": "Gib einen YouTube-Video- oder Kanal-Link ein, um Transkripte zu extrahieren.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "videoUrl": {
+      "title": "YouTube-Link",
+      "type": "string",
+      "description": "Ein Video- oder Kanal-Link (https://www.youtube.com/watch?v=... oder /@channel).",
+      "editor": "textfield"
+    }
+  },
+  "required": ["videoUrl"]
+}

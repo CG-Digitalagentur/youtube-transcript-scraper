@@ -1,0 +1,14 @@
+{
+  "name": "youtube-transcript-actor",
+  "version": "1.0.0",
+  "description": "Apify Actor zum Extrahieren von YouTube-Transkripten mit Kanal- und Video-Unterstützung",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^2.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "youtube-transcript": "^1.1.2"
+  }
+}
