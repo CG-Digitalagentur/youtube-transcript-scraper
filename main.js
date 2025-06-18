@@ -1,3 +1,4 @@
+global.fetch = require('node-fetch');
 const Apify = require('apify');
 const { YoutubeTranscript } = require('youtube-transcript');
 const cheerio = require('cheerio');
